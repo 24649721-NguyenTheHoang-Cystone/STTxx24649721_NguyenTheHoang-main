@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+div {
+    width: 640px;
+    height: 230px;
+    margin-top: 100px;
+    border: 1px solid rgb(177, 174, 174);
+}
+
+th, td {
+    border: 1px solid gray;
+    font-size: 20px;
+}
+
+table {
+    border: 1px solid gray;
+    width: 630px;
+    height: 190px;
+    margin-right: 5px;
+}
+
+caption {
+    padding-top: 6px;
+    padding-bottom: 1px;
+    font-size: 20px;
+}
+
+.t1 {
+    width: 10px;
+}
+
+.t2, .t3, .t5 {
+    width: 130px;
+}

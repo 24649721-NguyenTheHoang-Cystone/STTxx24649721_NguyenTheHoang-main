@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+table {
+    width: 640px;
+    height: 680px;
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+
+div {
+    background-color: rgb(152, 204, 254);
+    margin-top: 20px;
+    width: 640px;
+    height: 680px;
+}
+
+.r {
+    padding-top: 12px;
+}
+
+img {
+    width: 300px;
+    margin-top: -3px;
+}
+
+#b1,
+#b2 {
+    border-radius: 5px;
+}
+
+.c1 {
+    padding-left: 60px;
+}
+
+hr {
+    margin-left: 60px;
+    margin-right: 48px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    border: 1px solid gray;
+}
+
+select {
+    padding-right: 15px;
+}
+
+.rd,
+.rd1,
+.cb,
+.cb1 {
+    vertical-align: top;
+}
+
+.cm,
+.sys,
+.uf {
+    vertical-align: top;
+    padding-left: 60px;
+    margin-right: 10px;
+    height: 1px;
+}
+
+#txta {
+    margin-top: 3px;
+    margin-right: 40px;
+    width: 330px;
+    height: 100px;
+}
+
+.td3 {
+    padding-right: 70px;
+}
+   

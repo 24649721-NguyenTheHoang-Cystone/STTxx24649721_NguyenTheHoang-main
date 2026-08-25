@@ -1,0 +1,60 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+div {
+    margin-top: 20px; 
+    width: 600px;
+}
+
+form {
+    width: 50%; 
+    margin-top: 90px;
+    border: 1px solid blue;
+    padding-left: 7px;
+    padding-right: 10px;
+    padding-bottom: 8px;
+    padding-top: 1px;
+
+}
+
+.divmin{
+    border: 1px solid rgb(196, 187, 178);
+    width: 280px;
+    margin-top: 1px;
+    margin-right: 10px;
+}
+
+.tb2{
+    border: 1px solid blue;
+    width: 255px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+
+}
+
+.td1{
+    padding-top: 9px;
+    padding-right: 85px;
+
+}
+
+.td2{
+    padding-top: 9px;
+    padding-left: 10px;
+}
+
+td{
+    text-align: center;
+}
+
+#sm{
+    margin-top: 15px;
+    margin-left: 80px;
+
+}
+
+#n, #tn, #e, #cl{
+    margin-bottom: 17px;
+}

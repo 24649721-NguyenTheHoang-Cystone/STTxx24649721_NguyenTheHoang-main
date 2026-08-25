@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+}
+
+div {
+    margin-top: 20px;
+    width: 600px;
+}
+
+form {
+    width: 130%;
+    margin-top: 90px;
+    border: 1px solid blue;
+    padding-left: 3px;
+    padding-right: 8px;
+    padding-bottom: 25px;
+    padding-top: 1px;
+}
+
+h1 {
+    margin-bottom: 20px;
+    margin-left: -5px;
+}
+
+table {
+    width: 100%;
+    max-width: 700px;
+    border-collapse: collapse;
+    margin-left: 3px;
+    margin-right: 7px;
+}
+
+legend {
+    padding-top: -100px;
+    margin-left: 2px;
+    padding-bottom: 3px;
+}
+
+.f2 {
+    margin-top: -18px;
+}
+
+.td2 {
+    padding-right: 210px;
+}
+
+.td22 {
+    padding-right: 80px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+}

@@ -1,0 +1,55 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+  }
+  
+  .wrapper {
+    box-sizing: border-box;
+    margin: 0 auto;
+    border: 1px solid #000;
+    padding: 10px 15px;
+    width: 780px;
+    overflow: hidden;
+  }
+  
+  .wrapper img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #999;
+    margin: 10px 0;
+  }
+  
+  h1 {
+    font-size: 26px;
+    margin: 15px 0 10px 0;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 10px 0;
+  }
+  
+  a {
+    color: #0000EE;
+    text-decoration: underline;
+  }
+  
+  a:link,
+  a:visited {
+    color: #0000EE;
+  }
+  
+  .footer b {
+    font-size: 14px;
+  }
+  
+  .footer i {
+    font-size: 13px;
+  }

@@ -1,0 +1,77 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Georgia, "Times New Roman", serif;
+    background-color: #fff;
+    color: #000;
+  }
+  
+  .wrapper {
+    box-sizing: border-box;
+    max-width: 650px;
+    margin: 0 auto;
+    border: 1px solid #999;
+    padding: 15px 20px;
+    overflow: hidden;
+  }
+  
+  .logo {
+    display: block;
+    max-width: 260px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ccc;
+    margin: 5px 0 20px 0;
+  }
+  
+  h2 {
+    font-size: 17px;
+    margin: 10px 0;
+  }
+  
+  h3 {
+    font-size: 15px;
+    margin: 20px 0 8px 0;
+  }
+  
+  img {
+    display: block;
+    max-width: 220px;
+    height: auto;
+    margin: 10px 0;
+  }
+  
+  p {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 8px 0;
+  }
+  
+  ul, ol {
+    font-size: 14px;
+    line-height: 1.6;
+    margin: 8px 0;
+    padding-left: 25px;
+  }
+  
+  li {
+    margin: 2px 0;
+  }
+  
+  .reviews {
+    padding-left: 25px;
+  }
+  
+  .reviews > li {
+    margin-bottom: 15px;
+  }
+  
+  .stars {
+    font-weight: bold;
+    margin: 5px 0 3px 0;
+    color: #000;
+  }
