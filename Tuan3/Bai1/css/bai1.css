@@ -1,0 +1,142 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    color: white;
+    font-size: 130%;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+
+.wrapper {
+    width: 70%;
+    background: linear-gradient(#6ACCE8, #5EA2F0);
+}
+
+header {
+    height: 80px;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+header .menu {
+    list-style: none;
+    display: flex;
+}
+
+header .menu li {
+    text-indent: 20px;
+}
+
+header .menu li:hover {
+    background-color: brown;
+}
+
+header .menu li a {
+    text-decoration: none;
+    color: white;
+}
+
+header h1 {
+    text-shadow: 2px 2px 2px blue;
+}
+
+main {
+    height: 500px;
+    display: flex;
+    border-top: 5px dotted white;
+    border-bottom: 5px dotted white;
+    padding: 30px 10px;
+}
+
+main .left {
+    width: 50%;
+}
+
+main .left h2 {
+    margin-bottom: 30px;
+}
+
+main .left form label {
+    display: inline-block;
+    width: 40%;
+    margin-left: 12%;
+}
+
+main .left form input {
+    width: 45%;
+}
+
+main .left form input,
+main .left form select,
+main .left form textarea {
+    border-radius: 5px;
+    padding: 2px;
+}
+
+main .left form .text-a {
+    margin-top: 5px;
+    display: flex;
+    align-items: center;
+}
+
+main .left form .text-a label {
+    display: inline-block;
+}
+
+main .left form .text-a textarea {
+    width: 45%;
+}
+
+main .left form .btn button {
+    border: 3px dotted blue;
+    width: 60px;
+    position: relative;
+    left: 55%;
+}
+
+main .right {
+    width: 50%;
+    margin-left: 40px;
+}
+
+main .right img {
+    margin-top: 30px;
+    width: 80%;
+}
+
+main .right h3 {
+    text-shadow: 2px 2px 0px blue;
+    font-size: 40px;
+    font-weight: bold;
+    margin-left: 15%;
+    color: blue;
+}
+
+main .right h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: blue;
+    margin-left: 20%;
+}
+
+footer {
+    height: 110px;
+}
+
+footer>b,
+footer p {
+    display: block;
+    text-align: center;
+}
+
+footer b {
+    margin-top: 30px;
+}
